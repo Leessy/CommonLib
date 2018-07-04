@@ -2,7 +2,7 @@ package com.leessy.liuc.commonlibs;
 
 import android.app.Activity;
 
-import cn.pedant.SweetAlert.SweetAlertDialog;
+import com.kaer.sdk.serial.SerialReadClient;
 
 public class TimeUilts {
     /**
@@ -13,6 +13,11 @@ public class TimeUilts {
     }
 
     public static void showDialog(Activity context, String msg) {
-        new SweetAlertDialog(context).setCancelText(msg).show();
+//        new SweetAlertDialog(context).setCancelText(msg).show();
+    }
+
+    public static SerialReadClient getSeri() {
+        SerialReadClient instance = SerialReadClient.getInstance();
+        return instance;
     }
 }
