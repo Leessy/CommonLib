@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
 
+import com.AiChlFace.AiChlFace;
 import com.kaer.sdk.IDCardItem;
 import com.kaer.sdk.serial.SerialReadClient;
 import com.leessy.liuc.commonlibs.TestOBS;
