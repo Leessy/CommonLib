@@ -1,5 +1,7 @@
 # CommonLib
 项目通用lib集合
+[![](https://jitpack.io/v/Leessy/CommonLib.svg)](https://jitpack.io/#Leessy/CommonLib)
+
 用于管理项目所用到开源库进行统一管理
 
 1.rxjava 2.0

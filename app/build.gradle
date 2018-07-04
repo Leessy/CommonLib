@@ -27,7 +27,8 @@ dependencies {
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
     //通用库
 //    implementation 'com.github.Leessy:aiface:1.1.1'
-    implementation 'com.github.Leessy:CommonLib:1.1.1'
+//    implementation 'com.github.Leessy:CommonLib:1.1.1'
+    implementation 'com.github.Leessy:CommonLib:1.1.2'
     //简单提示dialog
 //    implementation 'cn.pedant.sweetalert:library:1.3'
     // RxJava 2
