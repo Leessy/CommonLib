@@ -1,1 +1,1 @@
-include ':app', ':commonlibs'
+include ':app', ':commonlibs', ':aiface'
